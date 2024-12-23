@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3e;
+    color: white;
+    padding: 16px 28px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header .search-bar input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+header .search-bar button {
+    padding: 10px;
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    text-decoration-color:#ff9900 ; 
+    text-decoration-thickness: 2px; 
+    text-underline-offset: 4px;
+
+}
+
+section h3 {
+    font-size: 30px;
+    margin-bottom:15px ;
+}
+section ul {
+    list-style-type: none;
+}
+
+section ul li {
+    margin: 5px 0;
+}
+
+#education ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+#education li {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+
+.star-rating {
+    font-size: 30px;
+    color: #ffd700;
+}
+
+.year {
+    color: #0c94af;
+    margin-left: 10px;
+    font-weight: normal;
+    font-weight: bold;
+  }
+  
+
+.project {
+    margin-bottom: 20px;
+    
+}
+
+
+.project h3 {
+    font-size: 22px;
+}
+
+.p1{
+    padding-bottom: 12px;
+}
+
+.project-link {
+    padding: 8px 16px;
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.project-link:hover {
+    background-color: #e68900;
+}
+.photo {
+    width: 150px;
+    height:auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-photo {
+    width: 100px;
+    height: auto; 
+    /* border-radius: 50%; */
+    margin-right: 20px;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+}
+
+.home-text h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#position ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+#position li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #232f3e;
+    color: white;
+    margin-top: 40px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #e68900;
+} 
+
